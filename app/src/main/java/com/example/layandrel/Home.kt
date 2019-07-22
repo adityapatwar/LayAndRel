@@ -21,6 +21,7 @@ class Home : AppCompatActivity() {
             var pindah: Intent = Intent(applicationContext,MainActivity::class.java)
             startActivity(pindah)
             finish();
+            //
         }
         btn_latihan2.setOnClickListener {
             var pindah: Intent = Intent(applicationContext,Activty_Relatve::class.java)
